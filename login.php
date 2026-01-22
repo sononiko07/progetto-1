@@ -14,7 +14,7 @@
                     <h2 class='centered-text form-title'>🎄BENVENUTI🎄</br></h2>
                     <h4 class='centered-text form-title'>EFFETTUARE IL LOGIN</br></h2>
 
-                    <form action='nomefile.php' method='POST' style='display:flex; flex-direction: column; gap: 10px;'>
+                    <form action='/area/area.php' method='POST' style='display:flex; flex-direction: column; gap: 10px;'>
                     
                         <div class='input-group form-title' >
                             <label style='color: rgba(0, 0, 0, 0.7); font-weight: bold; font-size: 1em; margin-left: 5px;'>Email</label>
