@@ -97,7 +97,6 @@ function inviaEmail($destinatario, $codice) {
         return true;
         
     } catch (Exception $e) {
-        // Logga l'errore nel log del server per il debug
         error_log("Errore PHPMailer: " . $mail->ErrorInfo);
         return false;
     }
